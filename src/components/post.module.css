@@ -1,0 +1,123 @@
+.post {
+    background: #202024;
+    border-radius: 8px;
+    padding: 2.5rem;
+}
+
+.post + .post {
+    margin-top: 2rem;
+}
+
+
+.content {
+    line-height: 1.6;
+    color: #c4c4cc;
+    margin-top: 1.5rem;
+
+}
+
+.content p {
+    margin-top: 1rem;
+}
+
+.content a {
+    font-weight: bold;
+    color:#00575f;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #00B37E;
+}
+
+.post > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post > header time {
+    font-size: 0.875rem;
+    color: #8d8d99;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} 
+
+
+.authorInfo strong{
+    display: block;
+    color: #e1e1e6;
+    line-height: 1.6;
+}
+
+.authorInfo span {
+    display: block;
+    font-size: 0.875rem;
+    color: #8d8d99;
+    line-height: 1.6;
+}
+
+.form {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #303034;
+}
+
+.form > strong {
+    line-height: 1.6;
+    color: #e1e1e6
+}
+
+.form textarea {
+    width: 100%;
+    background: #121214;
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1 rem;
+    border-radius: 8px;
+    color: #e1e1e6;
+    line-height: 1.4;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.form button[type=submit] {
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    background: #00575f;
+    color:#e1e1e6;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.commentForm button[type=submit]:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.form footer {
+    visibility: hidden;
+    max-width: 0;
+}
+
+.form:focus-within footer {
+    visibility: visible;
+    max-width: none;
+    
+}
+
+.form button[type=summit]:hover {
+    background: #c4c4cc;
+}
+
+.commentList {
+    margin-top: 2rem;
+}
