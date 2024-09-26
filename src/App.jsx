@@ -25,7 +25,7 @@ const posts = [
 {
   id: 2,
   author: {
-    avatarUrl:'https://media.licdn.com/dms/image/C4D03AQEFXEv8Q5jwiQ/profile-displayphoto-shrink_800_800/0/1624989669816?e=1724889600&v=beta&t=ps_KmjIKVkbjp9-IPbYaT8FScp7Xw8B2hfnA8FFPK9I',
+    avatarUrl:'https://files.oaiusercontent.com/file-MfDKeaQzvqs1SZMUWpopS7Ka?se=2024-09-26T16%3A57%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dfcafdc31-5336-440d-b25a-84000660c9ec.webp&sig=0XK9gywI51M5rZ2lraG8sW6jly57dlOJSoIJoF%2Bg1B4%3D',
     name: 'Maria Eduarda Bosquerolli',
     role: 'Operations Intern',
   },
